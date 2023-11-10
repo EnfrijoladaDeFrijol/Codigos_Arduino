@@ -1,6 +1,7 @@
 /*  
   CAN´T HELP FALLING IN LOVE WITH YOU
   4/4
+
 */
 
 #define B0  31
@@ -94,17 +95,22 @@
 #define DS8 4978
 #define REST      0
 
-// Pin donde está el buzzer pasivo:
+// Pin donde está el buzzer pasivo de la melodía:
 int buzzerP = 2;
+// Pin donse estaá el acompañamineto (bajeos)
+int buzzerPbajo = 3;
+
+
 // Duración: 
 int redonda = 1000;
 int blanca = redonda/2;
 int negra = redonda/4;
 int corchea = redonda/8;
 
-// _______________________________________
-// Fragmentos de la canción
-/* Aquí se pondrán todas las partes de la canción*/
+
+// ______________________________________________________
+//              Fragmentos de la canción
+//     Aquí se pondrán todas las partes de la canción
 
 int estribillo[] = {
   D4,redonda, 
@@ -135,7 +141,9 @@ int coro[] = {
 };
 int notasCoro = sizeof(coro) / sizeof(coro[0]) / 2;
 
-// _______________________________________
+
+// -----------------------------------------------------
+//        Funciones para reproducir la canción
 
 
 // Funciones para el correcto funcionamiento de este programa
@@ -146,18 +154,22 @@ void nota(int nota, int duracion){
   delay(duracion);
 }
 
-
 void reproductor(int fragmentoCancion[], int notas){
+  
   for (int i=0; i<notas*2; i = i+2){
     nota(fragmentoCancion[i], fragmentoCancion[i+1]);
   }
 }
 
+
+// -----------------------------------------------------
+//              Reproducción de la canción
+
 void setup() {
   pinMode(buzzerP, OUTPUT);
 }
 
-// Reproducción de la canción
+
 
 void loop() {
   reproductor(estribillo, notasEstribillo);
