@@ -1,11 +1,20 @@
 # Arduino y circuitos
 El siguiente documento es para tener una guía de cómo conectar ciertos componentes.
 
-## Conexión de LEDs
+<details open> <!-- Para conexiones básicas-->
+  <summary><h2>Conexiones básicas</h2></summary>
+
+<h3> LED</h3>
 <img src="img/conexionLED.png" alt="Conexión de led" width="70%">
 
+<h3>Potenciometro</h3>
+<img src="img/conexionPotenciometro.png" alt="Conexión de led" width="80%"> 
 
-<details open> 
+</details>
+
+
+
+<details> <!-- Para los circuitos lógicos-->
   <summary><h2>Circuitos lógicos</h2></summary>
 
 <h3> 74ls04 (Inversor hexagonal)</h3>
