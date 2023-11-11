@@ -1,7 +1,7 @@
 /*  
   CAN´T HELP FALLING IN LOVE WITH YOU
   4/4
-
+  Solo se usará el buzzer en el pin 2 para la melodía
 */
 
 #define B0  31
@@ -98,8 +98,7 @@
 // Pin donde está el buzzer pasivo de la melodía:
 int buzzerP = 2;
 // Pin donse estaá el acompañamineto (bajeos)
-int buzzerPbajo = 3;
-
+int buzzerPbajo = 4;
 
 // Duración: 
 int redonda = 1000;
@@ -107,10 +106,9 @@ int blanca = redonda/2;
 int negra = redonda/4;
 int corchea = redonda/8;
 
-
 // ______________________________________________________
 //              Fragmentos de la canción
-//     Aquí se pondrán todas las partes de la canción
+//  Aquí se pondrán todas las notas de la canción
 
 int estribillo[] = {
   D4,redonda, 
@@ -142,23 +140,26 @@ int coro[] = {
 int notasCoro = sizeof(coro) / sizeof(coro[0]) / 2;
 
 
+
 // -----------------------------------------------------
 //        Funciones para reproducir la canción
 
 
 // Funciones para el correcto funcionamiento de este programa
-void nota(int nota, int duracion){
-  tone(buzzerP, nota, duracion);
+void nota(int nota, int duracion, int buzzer){
+  tone(buzzer, nota, duracion);
   delay(duracion);
-  noTone(buzzerP);
+  noTone(buzzer);
   delay(duracion);
 }
 
-void reproductor(int fragmentoCancion[], int notas){
-  
+void reproductor(int fragmentoCancion[], int notas, int buzzer){
   for (int i=0; i<notas*2; i = i+2){
-    nota(fragmentoCancion[i], fragmentoCancion[i+1]);
+    nota(fragmentoCancion[i], fragmentoCancion[i+1], buzzer);
   }
+  //int i = 1;
+  //nota(fragmentoCancion[i], fragmentoCancion[i+1]);
+  
 }
 
 
@@ -167,17 +168,17 @@ void reproductor(int fragmentoCancion[], int notas){
 
 void setup() {
   pinMode(buzzerP, OUTPUT);
+  pinMode(buzzerPbajo, OUTPUT);
 }
 
-
-
 void loop() {
-  reproductor(estribillo, notasEstribillo);
-  reproductor(precoro, notasPrecoro);
-  reproductor(coro, notasCoro);
+  reproductor(estribillo, notasEstribillo, buzzerP);  
 
-  reproductor(precoro, notasPrecoro);
-  reproductor(coro, notasCoro);
+  reproductor(precoro, notasPrecoro,buzzerP);
+  reproductor(coro, notasCoro,buzzerP);
+
+  reproductor(precoro, notasPrecoro,buzzerP);
+  reproductor(coro, notasCoro,buzzerP);
 
   delay(2000);
   
