@@ -22,8 +22,10 @@ El siguiente documento es para tener una guía de cómo conectar ciertos compone
 <img src="img/74ls04.png" alt="Conexión 74ls04" width="80%"> 
 
 <h3> 74ls08 (AND)</h3>
+
 <p>Nota: Se pondrá el botón como la conexión anterior par simular un botón con dos terminales.</p>
 <img src="img/74ls08_AND.png" alt="Conexión 74ls08" width="80%">
+<img align="right" src="img/74ls08_AND_2.png" alt="Conexión 74ls08" width="50%">
 
 
 </details>
