@@ -1,8 +1,9 @@
-# Arduino y circuitos
+<h1 align="center">:star: Arduino y circuitos :star:</h1>
+
 El siguiente documento es para tener una guía de cómo conectar ciertos componentes.
 
 <details open> <!-- Para conexiones básicas-->
-  <summary><h2>Conexiones básicas</h2></summary>
+  <summary><h2> :arrow_down_small: Conexiones básicas</h2></summary>
 
 <h3> LED</h3>
 <img src="img/conexionLED.png" alt="Conexión de led" width="70%">
@@ -15,7 +16,7 @@ El siguiente documento es para tener una guía de cómo conectar ciertos compone
 
 
 <details> <!-- Para los circuitos lógicos-->
-  <summary><h2>Circuitos lógicos</h2></summary>
+  <summary><h2> :arrow_down_small: Circuitos lógicos</h2></summary>
 
 <h3> 74ls04 (NOT)</h3>
 <p>Nota: En la imagen se muestra un botón de doble puente, pero se conectó de tal manera para simular un botón de un solo puente.</p>
