@@ -20,10 +20,21 @@ El siguiente documento es para tener una guía de cómo conectar ciertos compone
 
 <h3> 74ls04 (NOT)</h3>
 <p>Nota: En la imagen se muestra un botón de doble puente, pero se conectó de tal manera para simular un botón de un solo puente.</p>
+<!-- Para los circuitos lógicos
 <img src="img/74ls04.png" alt="Conexión 74ls04" width="80%"> 
+<img align="right" src="img/74ls04_NOT.png" alt="Conexión 74ls08" width="50%">
+-->
+
+<table> <tbody> <tr> <td> <img
+src="img/74ls04.png" alt="git"  width="650px"  />
+</td> <td> 
+
+<img src="img/74ls04_NOT.png"
+alt="Ubuntu"  width="350px"  /></a> </td> </tr> </tbody> </table>
+
+<br>
 
 <h3> 74ls08 (AND)</h3>
-
 <p>Nota: Se pondrá el botón como la conexión anterior par simular un botón con dos terminales.</p>
 <img src="img/74ls08_AND.png" alt="Conexión 74ls08" width="80%">
 <img align="right" src="img/74ls08_AND_2.png" alt="Conexión 74ls08" width="50%">
