@@ -6,10 +6,10 @@ El siguiente documento es para tener una guía de cómo conectar ciertos compone
   <summary><h2> :arrow_down_small: Conexiones básicas</h2></summary>
 
 <h3> LED</h3>
-<img src="img/conexionLED.png" alt="Conexión de led" width="70%">
+<img src="img/conexionLED.png" alt="Conexión de led" width="50%">
 
 <h3>Potenciometro</h3>
-<img src="img/conexionPotenciometro.png" alt="Conexión de led" width="80%"> 
+<img src="img/conexionPotenciometro.png" alt="Conexión de led" width="60%"> 
 
 </details>
 
