@@ -41,7 +41,7 @@ src="img/74ls08_AND.png" alt="Conexión 74ls08"  width="650px"  />
 alt="Funcionamiento 74ls08"  width="350px"  /></a> </td> </tr> </tbody> </table>
 
 <h3> 74ls32 (OR)</h3>
-<p>Nota: Se pondrá el botón como la conexión anterior par simular un botón con dos terminales.</p>
+<p>Nota: Todos los botones pueden ser sustituidos por un Switch.</p>
 <table> <tbody> <tr> <td> <img
 src="img/74ls32_OR.png" alt="Conexión 74ls32"  width="650px"  />
 </td> <td> 
