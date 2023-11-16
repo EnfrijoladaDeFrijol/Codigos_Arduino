@@ -45,7 +45,7 @@ alt="Funcionamiento 74ls08"  width="350px"  /></a> </td> </tr> </tbody> </table>
 <table> <tbody> <tr> <td> <img
 src="img/74ls32_OR.png" alt="Conexión 74ls32"  width="650px"  />
 </td> <td> 
-<img src="img/74ls32_OR_funcionamiento.png"
+<img src="img/74ls32_OR_Funcionamiento.png"
 alt="Funcionamiento 74ls32"  width="400px"  /></a> </td> </tr> </tbody> </table>
 
 </details>
