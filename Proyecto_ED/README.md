@@ -1,5 +1,8 @@
 # Proyecto ED (Sistema de impresoras)
 
+## Objetivo
+Acá poner objetivo
+
 ## Enunciado
 Pendiente de agregar el enunciado...
 
