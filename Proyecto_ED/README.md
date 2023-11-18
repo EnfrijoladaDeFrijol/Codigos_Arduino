@@ -7,7 +7,7 @@ Acá poner objetivo
 Pendiente de agregar el enunciado...
 
 ## Tabla de verdad
-<img src="img/tablaDeVerdad.jpg" alt="Conexión de led" width="70%"> 
+<img src="img/tablaDeVerdad.jpg" alt="Conexión de led" width="30%"> 
 
 
 ## Alambrado
