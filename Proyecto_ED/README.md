@@ -1,10 +1,11 @@
 # Proyecto ED (Sistema de impresoras)
 
 ## Objetivo
-Acá poner objetivo
+Apreciar el funcionamiento de las compuertas 7404 (NOT), 7408 (AND) y 7432 (OR).
+Así mismo a partir de uan función boolena crear el circuito físico y alambrarlo.
 
 ## Enunciado
-Pendiente de agregar el enunciado...
+En café internet se tienen tres impresoras...
 
 ## Tabla de verdad
 <img src="img/tablaDeVerdad.jpg" alt="Conexión de led" width="30%"> 
