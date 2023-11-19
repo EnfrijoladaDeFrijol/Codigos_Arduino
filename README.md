@@ -25,10 +25,10 @@ El siguiente documento es para tener una guía de cómo conectar ciertos compone
 <img align="right" src="img/74ls04_NOT.png" alt="Conexión 74ls08" width="50%">
 -->
 <table> <tbody> <tr> <td> <img
-src="img/74ls04.png" alt="git"  width="650px"  />
+src="img/74ls04.png" alt="conexiónNOT"  width="650px"  />
 </td> <td> 
 <img src="img/74ls04_NOT.png"
-alt="Ubuntu"  width="350px"  /></a> </td> </tr> </tbody> </table>
+alt="funcioinamientoNOT"  width="350px"  /></a> </td> </tr> </tbody> </table>
 
 <br>
 
@@ -47,6 +47,17 @@ src="img/74ls32_OR.png" alt="Conexión 74ls32"  width="650px"  />
 </td> <td> 
 <img src="img/74ls32_OR_Funcionamiento.png"
 alt="Funcionamiento 74ls32"  width="400px"  /></a> </td> </tr> </tbody> </table>
+
+</details>
+
+
+
+
+
+<details> <!-- Para Diseño Digital-->
+  <summary><h2> :arrow_down_small: Diseño Digital</h2></summary>
+
+<h3> 74ls73 (FLIP-FLOP JK)</h3>
 
 </details>
 
