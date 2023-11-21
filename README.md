@@ -58,6 +58,11 @@ alt="Funcionamiento 74ls32"  width="400px"  /></a> </td> </tr> </tbody> </table>
   <summary><h2> :arrow_down_small: Diseño Digital</h2></summary>
 
 <h3> 74ls73 (FLIP-FLOP JK)</h3>
+<table> <tbody> <tr> <td> <img
+src="" alt="JK conexión"  width="650px"  />
+</td> <td> 
+<img src="img/74ls73_FlipFlopJK_2.png"
+alt="Funcionamiento 74ls32"  width="400px"  /></a> </td> </tr> </tbody> </table>
 
 </details>
 
