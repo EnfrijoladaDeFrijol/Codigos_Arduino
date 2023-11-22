@@ -1,14 +1,14 @@
 # Proyecto ED (Sistema de impresoras)
 
-## Objetivo
+## :star: Objetivo
 Apreciar el funcionamiento de las compuertas 7404 (NOT), 7408 (AND) y 7432 (OR).
 Así mismo a partir de uan función boolena crear el circuito físico y alambrarlo.
 
-## Enunciado
+## :star: Enunciado
 En un café internet se tienen tres impresoras, el dueño desea implementar un pequeño sistema utilizando un foco verde para así hacerles saber a los clientes si se puede mandar a imprimir. Si el foco está encendido los clientes podrán mandar a imprimir.
 Para que el foco se active debe haber al menos dos impresoras disponibles, pero por politicas del lugar no se podrá mandar a imprimir sis las tres impresoras están disponibles al mismo tiempo.
 
-## Tabla de verdad
+## :star: Tabla de verdad
 <img src="img/tablaDeVerdad.jpg" alt="Conexión de led" width="30%"> 
 
 ## Función Boolena
