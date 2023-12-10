@@ -1,6 +1,6 @@
 # :musical_note: Arduino Songs
 
-## :warning: Importante
+## :warning: Importante :star:
 
 | Componente | Pin       |
 |:--------:  |:---------:|
